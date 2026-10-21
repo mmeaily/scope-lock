@@ -1,0 +1,54 @@
+{
+  "_readme": "Shared settings for every scope. All lengths in mm. Keys starting with '_' are notes and are ignored. Each scope's measurements live in scopes/<name>/scope.json, which can also override any key here. Run: python generate.py [scopes/<name>]",
+
+  "lock": {
+    "_note": "A hood drops over the turrets from above; a thin plate slides in under the scope from the left through the lock block into grooves in the hood, and one bolt through the block and plate locks it. Fits with the scope left in its rings.",
+    "WALL": 3.0,
+    "_WALL": "Hood wall thickness",
+    "CLEARANCE": 0.8,
+    "_CLEARANCE": "Gap round the turret housing and the turrets",
+    "TUBE_CLEARANCE": 0.1,
+    "_TUBE_CLEARANCE": "Gap between the collars and the tube; the hood rests on the tube on its collars",
+    "COLLAR_LENGTH": 8.0,
+    "_COLLAR_LENGTH": "Collar along the tube at each end, from the inside of the hood",
+    "PLATE_THICKNESS": 2.0,
+    "_PLATE_THICKNESS": "Sliding plate under the scope. Thinner = less needed under the scope",
+    "PLATE_GAP": 0.4,
+    "_PLATE_GAP": "Gap between the plate and the lowest part of the scope it slides under. Also how far the hood can lift",
+    "PLATE_CLEARANCE": 0.2,
+    "_PLATE_CLEARANCE": "Gap round the plate in its grooves and slot",
+    "GROOVE_DEPTH": 1.5,
+    "_GROOVE_DEPTH": "How far the plate's edges sit into the hood walls",
+    "GROOVE_LIP": 1.2,
+    "_GROOVE_LIP": "Wall under the grooves; the hood's lowest point",
+    "FINGER_TAB": 6.0,
+    "_FINGER_TAB": "How far the plate sticks out of the lock block to pull it out by",
+    "NUT_TRAP_FLOOR": 2.0,
+    "_NUT_TRAP_FLOOR": "Material between the plate slot and the nut slot in the lock block",
+    "LABEL": "ZERO LOCKED",
+    "_LABEL": "Engraved on the left face of the lock block. Empty for none",
+    "LABEL_SIZE": 4.0
+  },
+
+  "hardware": {
+    "_note": "One M5 x 25 socket head bolt, washer and plain hex nut, upright through the lock block and the plate. Head recessed in the top of the block, nut in a slot opening on its left face.",
+    "BOLT_DIAMETER": 5.0,
+    "BOLT_LENGTH": 25.0,
+    "_BOLT_LENGTH": "Under-head length",
+    "BOLT_HOLE_CLEARANCE": 0.2,
+    "BOLT_HEAD_DIAMETER": 8.5,
+    "BOLT_HEAD_HEIGHT": 5.0,
+    "WASHER_DIAMETER": 10.0,
+    "WASHER_THICKNESS": 1.0,
+    "NUT_ACROSS_FLATS": 8.0,
+    "NUT_THICKNESS": 4.0,
+    "NUT_CLEARANCE": 0.2
+  },
+
+  "output": {
+    "_note": "Files are written into the profile's folder, named after it: <name>_hood.stl, <name>_plate.stl, <name>_preview.png.",
+    "PREVIEW": true,
+    "CHECK_CLEARANCES": true,
+    "_CHECK_CLEARANCES": "Check the hood going on, the plate sliding in, and the fitted lock against the scope (slower)"
+  }
+}

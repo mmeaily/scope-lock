@@ -1,0 +1,32 @@
+{
+  "_readme": "Scope profile: Nikko Stirling Mountmaster 3-9x40 AO (NMM3940AO; the illuminated NMMI3940AO has the same body). All lengths in mm. 'Left' and 'right' as seen by the shooter. Any key from params.json can be added here to override it for this scope.",
+
+  "scope": {
+    "_note": "Published: 1 inch tube, 322 mm long, capped turrets, parallax on the objective bell (no left knob). Housing and turret sizes MEASURED FROM A SIDE PHOTO (2026-10-20, elevation cap off), scaled from the 1 inch tube - about +-1 mm. Housing width and the turret caps were not visible: still estimates. Check with calipers or the fit test slices before the full print.",
+    "TUBE_DIAMETER": 25.4,
+    "_TUBE_DIAMETER": "Published: 1 inch",
+    "SADDLE_LENGTH": 32.0,
+    "_SADDLE_LENGTH": "From photo (housing ends are rounded)",
+    "SADDLE_WIDTH": 30.0,
+    "_SADDLE_WIDTH": "Estimate - not visible in the side photo",
+    "SADDLE_HEIGHT": 28.0,
+    "_SADDLE_HEIGHT": "From photo: about 1 mm above the tube top to 1.5 mm below the tube bottom",
+    "SADDLE_DROP": 1.5,
+    "_SADDLE_DROP": "From photo: the housing hangs below the tube",
+    "ELEVATION_DIAMETER": 27.0,
+    "_ELEVATION_DIAMETER": "Photo: base flange 26, thread 22. Cap not seen: estimate 27",
+    "ELEVATION_HEIGHT": 44.0,
+    "_ELEVATION_HEIGHT": "Photo: flange top 28.6 and adjuster top 40.2 above the tube bottom with the cap off. With the cap on: estimate 44",
+    "WINDAGE_DIAMETER": 27.0,
+    "_WINDAGE_DIAMETER": "Assumed the same as elevation",
+    "WINDAGE_WIDTH": 44.0,
+    "_WINDAGE_WIDTH": "Assumed the same as elevation: left side of the tube to the end of the cap",
+    "LEFT_KNOB_DIAMETER": 0.0,
+    "_LEFT_KNOB_DIAMETER": "None: parallax is on the objective bell",
+    "LEFT_KNOB_WIDTH": 0.0,
+    "RING_GAP": 0.0,
+    "_RING_GAP": "Measure on the rifle between the rings and set this",
+    "RECEIVER_GAP": 0.0,
+    "_RECEIVER_GAP": "Measure on the rifle: bottom of the tube to whatever is under it at the turret housing (receiver, rail). The hood must fit under there"
+  }
+}

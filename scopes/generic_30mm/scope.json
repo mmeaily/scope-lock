@@ -1,0 +1,32 @@
+{
+  "_readme": "Scope profile: a typical 30 mm hunting scope with a side parallax knob. A starting point for a new profile: copy this folder, rename it and measure. All lengths in mm. 'Left' and 'right' as seen by the shooter: windage on the right, parallax / illumination knob (if any) on the left. Any key from params.json can be added here to override it for this scope.",
+
+  "scope": {
+    "_note": "GUESSED dimensions, not a real scope.",
+    "TUBE_DIAMETER": 30.0,
+    "_TUBE_DIAMETER": "Main tube either side of the turret housing (25.4 for a 1 inch tube)",
+    "SADDLE_LENGTH": 52.0,
+    "_SADDLE_LENGTH": "Turret housing (the block the turrets sit on) along the tube",
+    "SADDLE_WIDTH": 42.0,
+    "_SADDLE_WIDTH": "Turret housing left to right, not counting the turrets",
+    "SADDLE_HEIGHT": 40.0,
+    "_SADDLE_HEIGHT": "Turret housing top to bottom, not counting the elevation turret",
+    "SADDLE_DROP": 2.0,
+    "_SADDLE_DROP": "How far the bottom of the turret housing hangs below the bottom of the tube (0 if flush)",
+    "ELEVATION_DIAMETER": 30.0,
+    "_ELEVATION_DIAMETER": "Elevation turret (or its cap), widest point",
+    "ELEVATION_HEIGHT": 62.0,
+    "_ELEVATION_HEIGHT": "Bottom of the tube to the top of the elevation turret / cap",
+    "WINDAGE_DIAMETER": 30.0,
+    "WINDAGE_WIDTH": 62.0,
+    "_WINDAGE_WIDTH": "Left side of the tube to the end of the windage turret / cap",
+    "LEFT_KNOB_DIAMETER": 28.0,
+    "_LEFT_KNOB_DIAMETER": "Parallax / illumination knob on the left. 0 if the scope has none",
+    "LEFT_KNOB_WIDTH": 58.0,
+    "_LEFT_KNOB_WIDTH": "Right side of the tube to the end of the left knob",
+    "RING_GAP": 0.0,
+    "_RING_GAP": "Clear space between the scope rings along the tube. The lock has to fit between them; 0 skips the check",
+    "RECEIVER_GAP": 0.0,
+    "_RECEIVER_GAP": "Bottom of the tube to whatever is under it at the turret housing (receiver, rail). The hood and plate must fit under there; 0 skips the check"
+  }
+}
